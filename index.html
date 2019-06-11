@@ -388,7 +388,7 @@ Can't wait for the next exciting project! Could be yours?</p></br>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; Sujal Patel 2017
+                        Copyright &copy; Sujal Patel <span class="year"></span>
                     </div>
                 </div>
             </div>
@@ -641,7 +641,10 @@ Can't wait for the next exciting project! Could be yours?</p></br>
 
     <!-- Theme JavaScript -->
     <script src="js/freelancer.min.js"></script>
-
+    <script type="text/javascript">
+        let d = new Date().getFullYear();
+        $('.year').html(d);
+    </script>
 </body>
 
 </html>
